@@ -1,0 +1,87 @@
+@use "sass:math";
+
+@mixin box-border($size:1,$color:#0C2542,$style:solid,) {
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    border: $size+px $style red;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@mixin base-button($color,$text:white) {
+  color: $text;
+  border-color: $color;
+  background-color: $color;
+
+  &:hover {
+    background-color: rgba($color, 0.85);
+    border-color: rgba($color,1);
+  }
+  &:focus {
+    background-color: rgba($color, 0.9);
+    border-color: rgba($color,1);
+  }
+  &:active {
+    background-color: rgba($color, 1);
+  }
+}
+
+@mixin when($state) {
+  @at-root {
+    &.#{$state-prefix + $state} {
+      @content;
+    }
+  }
+}
+
+// Break-points
+@mixin res($key, $map: $breakpoints) {
+  // loop breakpoint Map, return if present
+  @if map-has-key($map, $key) {
+    @media only screen and #{unquote(map-get($map, $key))} {
+      @content;
+    }
+  } @else {
+    @warn "Undefined points: `#{$map}`";
+  }
+}
+
+@mixin col-size($size) {
+  @include res($size) {
+    .#{$prefix}-col-#{$size}-0 {
+      display: none;
+      @include when(guttered) {
+        display: none;
+      }
+    }
+    @for $i from 0 through 24 {
+      .#{$prefix}-col-#{$size}-#{$i} {
+        @if $i != 0 {
+          display: block;
+        }
+        max-width: (math.div(1, 24) * $i * 100) * 1%;
+        flex: 0 0 (math.div(1, 24) * $i * 100) * 1%;
+      }
+
+      .#{$prefix}-col-#{$size}-offset-#{$i} {
+        margin-left: (math.div(1, 24) * $i * 100) * 1%;
+      }
+
+      .#{$prefix}-col-#{$size}-pull-#{$i} {
+        position: relative;
+        right: (math.div(1, 24) * $i * 100) * 1%;
+      }
+
+      .#{$prefix}-col-#{$size}-push-#{$i} {
+        position: relative;
+        left: (math.div(1, 24) * $i * 100) * 1%;
+      }
+    }
+  }
+}

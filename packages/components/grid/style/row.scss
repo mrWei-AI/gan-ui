@@ -1,0 +1,31 @@
+@import '../../style/theme';
+@import '../../style/mixins/mixins';
+
+$row-prefix-cls:'#{$prefix}-row';
+
+.#{$row-prefix-cls}{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  box-sizing: border-box;
+
+  @include when(justify-center) {
+    justify-content: center;
+  }
+  @include when(justify-end) {
+    justify-content: flex-end;
+  }
+  @include when(justify-space-between) {
+    justify-content: space-between;
+  }
+  @include when(justify-space-around) {
+    justify-content: space-around;
+  }
+
+  @include when(align-middle) {
+    align-items: center;
+  }
+  @include when(align-bottom) {
+    align-items: flex-end;
+  }
+}

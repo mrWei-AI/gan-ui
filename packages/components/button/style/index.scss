@@ -1,13 +1,7 @@
 @import '../../style/theme';
-@import '../../style/mixins';
+@import '../../style/mixins/mixins';
 
 $btn-prefix-cls: '#{$prefix}-button';
-$button-primary: $primary;
-
-$button-border-default: #dcdfe6;
-
-$button-disabled-border: #8692a1;
-$button-disabled-bg: #8692a1;
 
 .#{$btn-prefix-cls} {
   text-align: center;

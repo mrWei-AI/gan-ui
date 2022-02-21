@@ -1,8 +1,33 @@
 @import "../color/colors";
 
 $prefix:gan;
+$state-prefix: 'is-';
 
 
 $font-size-base: 14px;
 $font-size-lg: $font-size-base + 2px;
 $font-size-sm: 12px;
+
+
+//button
+$button-primary: $primary;
+$button-border-default: #dcdfe6;
+$button-disabled-border: #8692a1;
+$button-disabled-bg: #8692a1;
+
+//grid
+$grid-columns:24;
+
+
+// Break-point
+$sm: 768px !default;
+$md: 992px !default;
+$lg: 1200px !default;
+$xl: 1920px !default;
+$breakpoints: (
+    'xs': '(max-width: #{$sm})',
+    'sm': '(min-width: #{$sm})',
+    'md': '(min-width: #{$md})',
+    'lg': '(min-width: #{$lg})',
+    'xl': '(min-width: #{$xl})',
+) !default;

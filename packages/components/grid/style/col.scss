@@ -1,0 +1,54 @@
+@use 'sass:math';
+@import '../../style/theme';
+@import '../../style/mixins/mixins';
+
+$col-prefix-cls: '#{$prefix}-col';
+
+.#{$col-prefix-cls} {
+  background: red;
+}
+[class*='#{$col-prefix-cls}-'] {
+  float: left;
+  box-sizing: border-box;
+  @include when(guttered) {
+    display: block;
+    min-height: 1px;
+  }
+}
+
+.#{$col-prefix-cls}-0 {
+  display: none;
+  @include when(guttered) {
+    display: none;
+  }
+}
+
+@for $i from 0 through $grid-columns {
+  .#{$col-prefix-cls}-#{$i} {
+    max-width: (math.div(1, 24) * $i * 100) * 1%;
+    flex: 0 0 (math.div(1, 24) * $i * 100) * 1%;
+  }
+  .#{$col-prefix-cls}-offset-#{$i} {
+    margin-left: (math.div(1, 24) * $i * 100) * 1%;
+  }
+
+  .#{$col-prefix-cls}-pull-#{$i} {
+    position: relative;
+    right: (math.div(1, 24) * $i * 100) * 1%;
+  }
+
+  .#{$col-prefix-cls}-push-#{$i} {
+    position: relative;
+    left: (math.div(1, 24) * $i * 100) * 1%;
+  }
+}
+
+@include col-size(xs);
+
+@include col-size(sm);
+
+@include col-size(md);
+
+@include col-size(lg);
+
+@include col-size(xl);
