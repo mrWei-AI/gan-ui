@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": true,
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "types": ["node"],
+    "typeRoots" : ["../typings"],
+    "resolveJsonModule": true,
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+    "jsx": "react",
+    "jsxFactory": "h"
+  },
+  "include": ["**/*","**/*.tsx"]
+}

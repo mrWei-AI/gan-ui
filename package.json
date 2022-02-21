@@ -1,0 +1,53 @@
+{
+  "name": "gan-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "cd play && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp --require sucrase/register/ts -f build/gulpfile.ts",
+    "clean": "rimraf dist"
+  },
+  "rootDir": "packages",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "@vue/compiler-sfc": "3.2.23",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "rollup-plugin-dts": "^4.1.0",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "sass": "^1.45.0",
+    "ts-node": "^10.4.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.2",
+    "vue": "3.2.23"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-replace": "^3.0.0",
+    "@types/gulp": "^4.0.9",
+    "@types/npm": "^7.19.0",
+    "@types/rollup": "^0.54.0",
+    "@vue/compiler-sfc": "^3.2.24",
+    "@vueuse/core": "^7.0.0",
+    "esbuild": "^0.14.2",
+    "fast-glob": "^3.2.7",
+    "lodash": "^4.17.21",
+    "prettier": "^2.5.1",
+    "rollup": "^2.60.2",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-esbuild": "^4.7.2",
+    "rollup-plugin-filesize": "^9.1.1",
+    "rollup-plugin-vue": "^6.0.0",
+    "sucrase": "^3.20.3",
+    "the-answer": "^1.0.0",
+    "ts-morph": "^13.0.2",
+    "vue-types": "^4.1.1"
+  }
+}

@@ -1,0 +1,24 @@
+html,
+body {
+  margin: 0;
+}
+html{
+  font-family: sans-serif; // 2
+  line-height: 1.15; // 3
+}
+body{
+  font-size: $font-size-base;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; // 1
+}
+
+
+input[type='radio'],
+input[type='checkbox'] {
+  box-sizing: border-box; // 1. Add the correct box sizing in IE 10-
+  padding: 0; // 2. remove the padding in IE 10-
+}

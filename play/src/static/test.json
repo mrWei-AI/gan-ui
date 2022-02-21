@@ -1,0 +1,808 @@
+{
+    "codes": [
+        {
+            "code": "BK0928",
+            "name": "抖音小店",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "002269",
+            "name": "美邦服饰",
+            "score": "美邦服饰",
+            "topic": false
+        },
+        {
+            "code": "BK1052",
+            "name": "动力电池回收",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "601311",
+            "name": "骆驼股份",
+            "score": "骆驼股份",
+            "topic": false
+        },
+        {
+            "code": "BK0926",
+            "name": "湖北自贸",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "601311",
+            "name": "骆驼股份",
+            "score": "骆驼股份",
+            "topic": false
+        },
+        {
+            "code": "BK0955",
+            "name": "C2M概念",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "002269",
+            "name": "美邦服饰",
+            "score": "美邦服饰",
+            "topic": false
+        },
+        {
+            "code": "BK0512",
+            "name": "化工原料",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "600618",
+            "name": "氯碱化工",
+            "score": "氯碱化工",
+            "topic": false
+        },
+        {
+            "code": "BK0806",
+            "name": "精准医疗",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300003",
+            "name": "乐普医疗",
+            "score": "乐普医疗",
+            "topic": false
+        },
+        {
+            "code": "BK0841",
+            "name": "体外诊断",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300003",
+            "name": "乐普医疗",
+            "score": "乐普医疗",
+            "topic": false
+        },
+        {
+            "code": "BK0889",
+            "name": "医疗美容",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300003",
+            "name": "乐普医疗",
+            "score": "乐普医疗",
+            "topic": false
+        },
+        {
+            "code": "BK0913",
+            "name": "消毒剂",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "600618",
+            "name": "氯碱化工",
+            "score": "氯碱化工",
+            "topic": false
+        },
+        {
+            "code": "BK1019",
+            "name": "化学原料",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "600618",
+            "name": "氯碱化工",
+            "score": "氯碱化工",
+            "topic": false
+        },
+        {
+            "code": "BK1033",
+            "name": "电池",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "601311",
+            "name": "骆驼股份",
+            "score": "骆驼股份",
+            "topic": false
+        },
+        {
+            "code": "BK0436",
+            "name": "纺织服装",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "002269",
+            "name": "美邦服饰",
+            "score": "美邦服饰",
+            "topic": false
+        },
+        {
+            "code": "BK0447",
+            "name": "互联网服务",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "600446",
+            "name": "金证股份",
+            "score": "金证股份",
+            "topic": false
+        },
+        {
+            "code": "BK0454",
+            "name": "塑料制品",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300905",
+            "name": "宝丽迪",
+            "score": "宝丽迪",
+            "topic": false
+        },
+        {
+            "code": "BK0580",
+            "name": "LED",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300566",
+            "name": "激智科技",
+            "score": "激智科技",
+            "topic": false
+        },
+        {
+            "code": "BK0628",
+            "name": "智慧城市",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "600446",
+            "name": "金证股份",
+            "score": "金证股份",
+            "topic": false
+        },
+        {
+            "code": "BK0638",
+            "name": "创业成份",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300003",
+            "name": "乐普医疗",
+            "score": "乐普医疗",
+            "topic": false
+        },
+        {
+            "code": "BK0664",
+            "name": "婴童概念",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "002269",
+            "name": "美邦服饰",
+            "score": "美邦服饰",
+            "topic": false
+        },
+        {
+            "code": "BK0665",
+            "name": "电商概念",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "002269",
+            "name": "美邦服饰",
+            "score": "美邦服饰",
+            "topic": false
+        },
+        {
+            "code": "600446",
+            "name": "金证股份",
+            "score": "金证股份",
+            "topic": false
+        },
+        {
+            "code": "BK0675",
+            "name": "病毒防治",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300003",
+            "name": "乐普医疗",
+            "score": "乐普医疗",
+            "topic": false
+        },
+        {
+            "code": "BK0682",
+            "name": "燃料电池",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "601311",
+            "name": "骆驼股份",
+            "score": "骆驼股份",
+            "topic": false
+        },
+        {
+            "code": "BK0696",
+            "name": "国产软件",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "600446",
+            "name": "金证股份",
+            "score": "金证股份",
+            "topic": false
+        },
+        {
+            "code": "BK0719",
+            "name": "健康中国",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300003",
+            "name": "乐普医疗",
+            "score": "乐普医疗",
+            "topic": false
+        },
+        {
+            "code": "BK0800",
+            "name": "人工智能",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300003",
+            "name": "乐普医疗",
+            "score": "乐普医疗",
+            "topic": false
+        },
+        {
+            "code": "600446",
+            "name": "金证股份",
+            "score": "金证股份",
+            "topic": false
+        },
+        {
+            "code": "BK0812",
+            "name": "贬值受益",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "002269",
+            "name": "美邦服饰",
+            "score": "美邦服饰",
+            "topic": false
+        },
+        {
+            "code": "BK0823",
+            "name": "养老金",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300566",
+            "name": "激智科技",
+            "score": "激智科技",
+            "topic": false
+        },
+        {
+            "code": "BK0825",
+            "name": "新零售",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "002269",
+            "name": "美邦服饰",
+            "score": "美邦服饰",
+            "topic": false
+        },
+        {
+            "code": "BK0833",
+            "name": "小米概念",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300566",
+            "name": "激智科技",
+            "score": "激智科技",
+            "topic": false
+        },
+        {
+            "code": "BK0837",
+            "name": "互联医疗",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300003",
+            "name": "乐普医疗",
+            "score": "乐普医疗",
+            "topic": false
+        },
+        {
+            "code": "BK0840",
+            "name": "OLED",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300566",
+            "name": "激智科技",
+            "score": "激智科技",
+            "topic": false
+        },
+        {
+            "code": "BK0859",
+            "name": "超清视频",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300566",
+            "name": "激智科技",
+            "score": "激智科技",
+            "topic": false
+        },
+        {
+            "code": "BK0864",
+            "name": "氢能源",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "600618",
+            "name": "氯碱化工",
+            "score": "氯碱化工",
+            "topic": false
+        },
+        {
+            "code": "601311",
+            "name": "骆驼股份",
+            "score": "骆驼股份",
+            "topic": false
+        },
+        {
+            "code": "BK0989",
+            "name": "储能",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "601311",
+            "name": "骆驼股份",
+            "score": "骆驼股份",
+            "topic": false
+        },
+        {
+            "code": "BK1038",
+            "name": "光学光电子",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300566",
+            "name": "激智科技",
+            "score": "激智科技",
+            "topic": false
+        },
+        {
+            "code": "BK1041",
+            "name": "医疗器械",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300003",
+            "name": "乐普医疗",
+            "score": "乐普医疗",
+            "topic": false
+        },
+        {
+            "code": "BK0494",
+            "name": "节能环保",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300905",
+            "name": "宝丽迪",
+            "score": "宝丽迪",
+            "topic": false
+        },
+        {
+            "code": "BK0549",
+            "name": "深圳特区",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "600446",
+            "name": "金证股份",
+            "score": "金证股份",
+            "topic": false
+        },
+        {
+            "code": "BK0574",
+            "name": "锂电池",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "601311",
+            "name": "骆驼股份",
+            "score": "骆驼股份",
+            "topic": false
+        },
+        {
+            "code": "BK0588",
+            "name": "太阳能",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300566",
+            "name": "激智科技",
+            "score": "激智科技",
+            "topic": false
+        },
+        {
+            "code": "BK0594",
+            "name": "长江三角",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "002269",
+            "name": "美邦服饰",
+            "score": "美邦服饰",
+            "topic": false
+        },
+        {
+            "code": "600618",
+            "name": "氯碱化工",
+            "score": "氯碱化工",
+            "topic": false
+        },
+        {
+            "code": "BK0637",
+            "name": "互联金融",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "600446",
+            "name": "金证股份",
+            "score": "金证股份",
+            "topic": false
+        },
+        {
+            "code": "BK0668",
+            "name": "医疗器械概念",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300003",
+            "name": "乐普医疗",
+            "score": "乐普医疗",
+            "topic": false
+        },
+        {
+            "code": "BK0712",
+            "name": "一带一路",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "601311",
+            "name": "骆驼股份",
+            "score": "骆驼股份",
+            "topic": false
+        },
+        {
+            "code": "BK0830",
+            "name": "区块链",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "600446",
+            "name": "金证股份",
+            "score": "金证股份",
+            "topic": false
+        },
+        {
+            "code": "BK0854",
+            "name": "华为概念",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300566",
+            "name": "激智科技",
+            "score": "激智科技",
+            "topic": false
+        },
+        {
+            "code": "600446",
+            "name": "金证股份",
+            "score": "金证股份",
+            "topic": false
+        },
+        {
+            "code": "BK0900",
+            "name": "新能源车",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "601311",
+            "name": "骆驼股份",
+            "score": "骆驼股份",
+            "topic": false
+        },
+        {
+            "code": "BK1005",
+            "name": "专精特新",
+            "score": 0,
+            "topic": true
+        },
+        {
+            "code": "300905",
+            "name": "宝丽迪",
+            "score": "宝丽迪",
+            "topic": false
+        }
+    ],
+    "relations": [
+        {
+            "source": "BK0928",
+            "target": "002269"
+        },
+        {
+            "source": "BK1052",
+            "target": "601311"
+        },
+        {
+            "source": "BK0926",
+            "target": "601311"
+        },
+        {
+            "source": "BK0955",
+            "target": "002269"
+        },
+        {
+            "source": "BK0512",
+            "target": "600618"
+        },
+        {
+            "source": "BK0806",
+            "target": "300003"
+        },
+        {
+            "source": "BK0841",
+            "target": "300003"
+        },
+        {
+            "source": "BK0889",
+            "target": "300003"
+        },
+        {
+            "source": "BK0913",
+            "target": "600618"
+        },
+        {
+            "source": "BK1019",
+            "target": "600618"
+        },
+        {
+            "source": "BK1033",
+            "target": "601311"
+        },
+        {
+            "source": "BK0436",
+            "target": "002269"
+        },
+        {
+            "source": "BK0447",
+            "target": "600446"
+        },
+        {
+            "source": "BK0454",
+            "target": "300905"
+        },
+        {
+            "source": "BK0580",
+            "target": "300566"
+        },
+        {
+            "source": "BK0628",
+            "target": "600446"
+        },
+        {
+            "source": "BK0638",
+            "target": "300003"
+        },
+        {
+            "source": "BK0664",
+            "target": "002269"
+        },
+        {
+            "source": "BK0665",
+            "target": "002269"
+        },
+        {
+            "source": "BK0665",
+            "target": "600446"
+        },
+        {
+            "source": "BK0675",
+            "target": "300003"
+        },
+        {
+            "source": "BK0682",
+            "target": "601311"
+        },
+        {
+            "source": "BK0696",
+            "target": "600446"
+        },
+        {
+            "source": "BK0719",
+            "target": "300003"
+        },
+        {
+            "source": "BK0800",
+            "target": "300003"
+        },
+        {
+            "source": "BK0800",
+            "target": "600446"
+        },
+        {
+            "source": "BK0812",
+            "target": "002269"
+        },
+        {
+            "source": "BK0823",
+            "target": "300566"
+        },
+        {
+            "source": "BK0825",
+            "target": "002269"
+        },
+        {
+            "source": "BK0833",
+            "target": "300566"
+        },
+        {
+            "source": "BK0837",
+            "target": "300003"
+        },
+        {
+            "source": "BK0840",
+            "target": "300566"
+        },
+        {
+            "source": "BK0859",
+            "target": "300566"
+        },
+        {
+            "source": "BK0864",
+            "target": "600618"
+        },
+        {
+            "source": "BK0864",
+            "target": "601311"
+        },
+        {
+            "source": "BK0989",
+            "target": "601311"
+        },
+        {
+            "source": "BK1038",
+            "target": "300566"
+        },
+        {
+            "source": "BK1041",
+            "target": "300003"
+        },
+        {
+            "source": "BK0494",
+            "target": "300905"
+        },
+        {
+            "source": "BK0549",
+            "target": "600446"
+        },
+        {
+            "source": "BK0574",
+            "target": "601311"
+        },
+        {
+            "source": "BK0588",
+            "target": "300566"
+        },
+        {
+            "source": "BK0594",
+            "target": "002269"
+        },
+        {
+            "source": "BK0594",
+            "target": "600618"
+        },
+        {
+            "source": "BK0637",
+            "target": "600446"
+        },
+        {
+            "source": "BK0668",
+            "target": "300003"
+        },
+        {
+            "source": "BK0712",
+            "target": "601311"
+        },
+        {
+            "source": "BK0830",
+            "target": "600446"
+        },
+        {
+            "source": "BK0854",
+            "target": "300566"
+        },
+        {
+            "source": "BK0854",
+            "target": "600446"
+        },
+        {
+            "source": "BK0900",
+            "target": "601311"
+        },
+        {
+            "source": "BK1005",
+            "target": "300905"
+        }
+    ]
+}

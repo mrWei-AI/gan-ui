@@ -1,0 +1,16 @@
+@import "../../style/mixins/index";
+@import "../../style/theme/index";
+
+.#{$prefix}-loading {
+  position: absolute;
+
+}
+.gen-loading-fade-enter-active,
+.gen-loading-fade-leave-active{
+  transition: opacity 250ms;
+
+}
+.gen-loading-fade-enter-from,
+.gen-loading-fade-leave-to{
+  opacity: 0;
+}
