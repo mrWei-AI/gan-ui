@@ -1,6 +1,6 @@
-@use 'sass:math';
-@import '../../style/theme';
-@import '../../style/mixins/mixins';
+@use "sass:math";
+@use '../../style/theme/var' as *;
+@use '../../style/mixins/mixins' as *;
 
 $col-prefix-cls: '#{$prefix}-col';
 
@@ -25,21 +25,21 @@ $col-prefix-cls: '#{$prefix}-col';
 
 @for $i from 0 through $grid-columns {
   .#{$col-prefix-cls}-#{$i} {
-    max-width: (math.div(1, 24) * $i * 100) * 1%;
-    flex: 0 0 (math.div(1, 24) * $i * 100) * 1%;
+    max-width: (math.div(1,24) * $i * 100) * 1%;
+    flex: 0 0 (math.div(1,24) * $i * 100) * 1%;
   }
   .#{$col-prefix-cls}-offset-#{$i} {
-    margin-left: (math.div(1, 24) * $i * 100) * 1%;
+    margin-left: (math.div(1,24) * $i * 100) * 1%;
   }
 
   .#{$col-prefix-cls}-pull-#{$i} {
     position: relative;
-    right: (math.div(1, 24) * $i * 100) * 1%;
+    right: (math.div(1,24) * $i * 100) * 1%;
   }
 
   .#{$col-prefix-cls}-push-#{$i} {
     position: relative;
-    left: (math.div(1, 24) * $i * 100) * 1%;
+    left: (math.div(1,24) * $i * 100) * 1%;
   }
 }
 

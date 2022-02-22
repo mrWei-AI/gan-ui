@@ -1,21 +1,18 @@
-import { defineComponent, computed, inject, CSSProperties } from 'vue'
+import { defineComponent, computed, inject, CSSProperties,ExtractPropTypes } from 'vue'
 import PropTypes from '../../../utils/index'
 import useConfigInject from '../../../hooks/useConfigInject'
 import classNames from '../../../utils/classNames'
 
 type ColSpanType = number | string
-
 export interface ColSize {
   span?: ColSpanType
-  order?: ColSpanType
   offset?: ColSpanType
   push?: ColSpanType
   pull?: ColSpanType
 }
 const stringOrNumber = PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-export const colSize = PropTypes.shape<ColSize>({
+export const colSize = PropTypes.shape({
   span: stringOrNumber,
-  order: stringOrNumber,
   offset: stringOrNumber,
   push: stringOrNumber,
   pull: stringOrNumber
@@ -25,7 +22,7 @@ const objectOrNumber = PropTypes.oneOfType([
   PropTypes.number,
   colSize
 ])
-const ColProps = {
+const colProps = {
   span: stringOrNumber,
   offset: stringOrNumber,
   push: stringOrNumber,
@@ -36,9 +33,11 @@ const ColProps = {
   lg: objectOrNumber,
   xl: objectOrNumber
 }
+export type ColProps = Partial<ExtractPropTypes<typeof colProps>>;
+
 export default defineComponent({
   name: 'GCol',
-  props: ColProps,
+  props: colProps,
   setup(props, { slots }) {
     const { gutter, gutterType } = inject('GRow', {
       gutter: { value: 0 },

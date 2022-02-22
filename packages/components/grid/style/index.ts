@@ -1,2 +1,2 @@
-import './row.scss'
 import './col.scss'
+import './row.scss'

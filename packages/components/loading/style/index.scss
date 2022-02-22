@@ -1,5 +1,5 @@
-@import "../../style/mixins/mixins";
-@import "../../style/theme/index";
+@use "../../style/theme/var" as *;
+@use "../../style/mixins/mixins" as *;
 
 .#{$prefix}-loading {
   position: absolute;

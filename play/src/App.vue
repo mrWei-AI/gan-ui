@@ -1,9 +1,5 @@
 <script setup lang="ts">
 import { ref, provide, onMounted } from 'vue'
-import GLoading from '../../packages/components/loading'
-
-
-
 
 //全局配置
 let size = ref('')

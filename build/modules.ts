@@ -21,7 +21,6 @@ async function alog() {
     absolute: true,
     onlyFiles: true
   })
-  console.log('————————————————————————————————————》》》》》》》》', a)
   return a
 }
 export const buildModules = async () => {

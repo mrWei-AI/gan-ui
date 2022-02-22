@@ -1,6 +1,6 @@
 import { isArray, isString, isObject } from './util';
 function classNames(...args: any[]) {
-  const classes = [];
+  const classes:string[] = [];
   for (let i = 0; i < args.length; i++) {
     const value = args[i];
     if (!value) continue;

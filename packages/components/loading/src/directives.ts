@@ -1,14 +1,12 @@
 import type {DirectiveBinding} from 'vue'
+import type {LoadingInstance} from "./loading.type";
 import Loading from './loading'
 
 const INSTANCE = 'GLoading'
 
 
-interface VLoadingType extends HTMLElement{
-  [INSTANCE]: {
-    close: () => void
-    open: () => void
-  }
+export interface VLoadingType extends HTMLElement{
+  [INSTANCE]: LoadingInstance
 }
 
 const createInstance = (el: VLoadingType, binding: DirectiveBinding) => {
@@ -19,7 +17,7 @@ const createInstance = (el: VLoadingType, binding: DirectiveBinding) => {
 }
 
 
-export default {
+ const vLoading={
   mounted(el: VLoadingType, binding: DirectiveBinding) {
     createInstance(el, binding)
   },
@@ -35,3 +33,4 @@ export default {
     }
   },
 }
+export default vLoading

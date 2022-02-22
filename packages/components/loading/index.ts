@@ -1,5 +1,5 @@
 import Loading from './src/loading'
-import vLoading from './src/vLoading'
+import vLoading from './src/directives'
 import type {App} from 'vue'
 
 const GLoading = {
@@ -7,7 +7,8 @@ const GLoading = {
     app.directive('loading',vLoading)
     app.config.globalProperties.$loading = Loading
   },
-  service: Loading,
+    directives:vLoading,
+    service: Loading,
 }
 export default  GLoading
 export { GLoading }

@@ -1,5 +1,5 @@
-@import '../../style/theme';
-@import '../../style/mixins/mixins';
+@use '../../style/theme/var' as *;
+@use '../../style/mixins/mixins' as *;
 
 $row-prefix-cls:'#{$prefix}-row';
 
