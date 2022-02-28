@@ -13,7 +13,7 @@ export default (
 
   const configProvider = inject<UnwrapRef<ConfigProviderProps>>('configProvider', defaultConfigProvider)
   const prefixCls = computed(() => configProvider.getPrefixCls!(name, props.prefixCls))
-  const size = computed(() => props.size || configProvider.componentSize)
+  const size = computed(() => props.size ?? configProvider.componentSize)
   return {
     configProvider,
     prefixCls,

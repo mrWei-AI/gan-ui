@@ -15,30 +15,17 @@ const focus = () => {
 }
 const blur = () => {
 }
+
+let data = [
+    {name:'位云飞',age:32,height:'一米七八'},
+    {name:'余靖雯',age:18,height:'一米三二'},
+];
 </script>
 
 <template>
-<!--  :offset= "2"-->
-<!--  :push= "3"-->
-<!--  :pull= "4"-->
   <div class="apppppppppppppppppappppppppppp">
     <GConfigProvider :componentSize='size'>
-      <GRow :span="1" :gutter="20" gutterType="padding">
-        <GCol :span="2"
-              :xs= "5"
-              :sm= "6"
-              :md= "7"
-              :lg= "8"
-              :xl= "9">asd</GCol>
-        <GCol :span="2"
-              :xs= "5"
-              :sm= "6"
-              :md= "7"
-              :lg= "8"
-              :xl= "9">asd</GCol>
-
-      </GRow>
-
+      <GInput type="textarea" ></GInput>
     </GConfigProvider>
 
     <button @click="_click">App</button>

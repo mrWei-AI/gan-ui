@@ -1,0 +1,1 @@
+import {defineComponent,getCurrentInstance} from 'vue'export default defineComponent({    name:'GTableColumn',    props:[],    setup(props,context) {        const {parent} = getCurrentInstance();        console.log(parent)        return () => {            return <div>column</div>        };    }})

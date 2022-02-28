@@ -33,3 +33,9 @@ $breakpoints: (
     'lg': '(min-width: #{$lg})',
     'xl': '(min-width: #{$xl})',
 ) !default;
+
+//input
+$input-bg:white;
+$input-focus:$primary;
+$input-hover:#c0c4cc;
+$input-base-border: $primary-border;
