@@ -5,6 +5,7 @@ import GLoading from './loading'
 import {GRow,GCol} from "./grid";
 import {GTable,GTableColumn} from './table'
 import Input from './input'
+import Select from './select'
 
 export default [
     GConfigProvider,
@@ -14,7 +15,8 @@ export default [
     GCol,
     GTable,
     GTableColumn,
-    Input
+    Input,
+    Select
 ]
 
 export const plugin=[

@@ -25,7 +25,7 @@ let data = [
 <template>
   <div class="apppppppppppppppppappppppppppp">
     <GConfigProvider :componentSize='size'>
-      <GInput type="textarea" ></GInput>
+      <GSelect></GSelect>
     </GConfigProvider>
 
     <button @click="_click">App</button>
